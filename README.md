@@ -111,6 +111,6 @@ echo "Log out and log back in, then start using your shells and tools."
 echo "Your scripts folder is ready at ~/scripts"
 echo "======================================"
 
-
+```
 
 ## Once you have made this file, run it in your Alpine environment.
