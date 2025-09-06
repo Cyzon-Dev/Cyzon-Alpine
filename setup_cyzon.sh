@@ -13,8 +13,10 @@ apk update
 
 # Install shells, utilities, networking, programming, monitoring, and automation tools
 apk add bash zsh fish coreutils ncurses tmux screen \
-curl wget nmap tcpdump python3 lua nodejs gcc g++ make git \
-vim nano sed jq grep htop glances xz
+    curl wget nmap tcpdump netcat-openbsd \
+    python3 lua nodejs gcc g++ make git \
+    vim nano gawk sed jq grep htop glances \
+    openrc dcron xz
 
 # Create a scripts folder in your home directory
 mkdir -p ~/scripts
