@@ -92,10 +92,9 @@ apk update
 
 # Install shells, utilities, networking, programming, monitoring, and automation tools
 apk add bash zsh fish coreutils ncurses tmux screen \
-curl wget nmap tcpdump netcat \
+curl wget nmap tcpdump netcat-openbsd \
 python3 lua nodejs gcc g++ make git \
-vim nano awk sed jq grep htop glances \
-cron at task-spooler xz
+vim nano sed jq grep htop glances xz dcron at
 
 # Create a scripts folder in your home directory
 mkdir -p ~/scripts
@@ -111,6 +110,5 @@ echo "Cyzon setup complete!"
 echo "Log out and log back in, then start using your shells and tools."
 echo "Your scripts folder is ready at ~/scripts"
 echo "======================================"
-```
 
-Once you have made this file, run `setup_cyzon.sh` in your Alpine environment to set up Cyzon.
+Once you have made this file, run it in your Alpine environment.
